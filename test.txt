@@ -1,0 +1,19 @@
+wo ke neng you ming
+wo ying gai mei bing ba
+#include<iosteam>
+using namespace std;
+void selectsort(int arr[], int n){
+          for(int i=0;i<n;i++){
+                 int minindex=i;
+                 for(int j=i;j<n;j++){
+                      if(arr[minindex]>arr[j])
+                          minindex=j;
+   }
+
+}
+int main(){
+      int arr[]={2,1,4,5,6,2,3,4,7};
+      selectsort(arr,9);
+return 0;
+}
+:wq!
